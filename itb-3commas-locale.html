@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ITB Widget Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      window.itb_widget=window.itb_widget||{init:t=>{const e=document.createElement("script");e.async=!0,e.type="text/javascript",e.src="https://app.intotheblock.com/widget.js",e.onload=function(){window.itbWidgetInit(t)},document.getElementsByTagName("head")[0].appendChild(e)}};
+      window.itb_widget.init({
+        apiKey: 'h6WvxliUby3ARBQh05uLj90WQD9N0ZwG7EBoGfJD',     
+        language: 'en',
+        options: {
+          tokenId: 'BTC',
+          loader: true,
+        }
+      })
+    </script>
+    <style>
+      .itb-widget[data-type="call-to-action"] {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="widget-container">
+      <div data-target='itb-widget' data-type='quick-view-v2'></div>
+      <div data-target='itb-widget' data-type='call-to-action'></div>
+    </div>
+  </body>
+</html>
